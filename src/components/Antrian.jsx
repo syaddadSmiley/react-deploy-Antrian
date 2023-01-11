@@ -6,27 +6,28 @@ import '../style/Antrian.css';
 import '../style/bootstrap/jumbotron-narrow-monitoring.css';
 import useSound from 'use-sound';
 
-import satuSound from '../assets/audio/new/1.MP3';
-import duaSound from '../assets/audio/new/2.MP3';
-import tigaSound from '../assets/audio/new/3.MP3';
-import empatSound from '../assets/audio/new/4.MP3';
-import limaSound from '../assets/audio/new/5.MP3';
-import enamSound from '../assets/audio/new/6.MP3';
-import tujuhSound from '../assets/audio/new/7.MP3';
-import delapanSound from '../assets/audio/new/8.MP3';
-import sembilanSound from '../assets/audio/new/9.MP3';
-import ratusSound from '../assets/audio/new/ratus.MP3';
-import ribuSound from '../assets/audio/new/ribu.MP3';
-import sebelasSound from '../assets/audio/new/sebelas.MP3';
-import sepuluhSound from '../assets/audio/new/sepuluh.MP3';
-import seratusSound from '../assets/audio/new/seratus.MP3';
-import silahkanSound from '../assets/audio/new/silahkan_ke_perawat.MP3';
-import silahkanKasirSound from '../assets/audio/new/silahkan_ke_kasir.mp3';
-import belasSound from '../assets/audio/new/belas.MP3';
-import puluhSound from '../assets/audio/new/puluh.MP3';
-import bellFirstSound from '../assets/audio/new/Airport_Bell_First.mp3';
-import bellSecondSound from '../assets/audio/new/Airport_Bell_Second.mp3';
-import nomorUrutSound from '../assets/audio/new/nomor-urut.MP3';
+
+import satuSound from '../../public/assets/audio/new/1.MP3';
+import duaSound from '../../public/assets/audio/new/2.MP3';
+import tigaSound from '../../public/assets/audio/new/3.MP3';
+import empatSound from '../../public/assets/audio/new/4.MP3';
+import limaSound from '../../public/assets/audio/new/5.MP3';
+import enamSound from '../../public/assets/audio/new/6.MP3';
+import tujuhSound from '../../public/assets/audio/new/7.MP3';
+import delapanSound from '../../public/assets/audio/new/8.MP3';
+import sembilanSound from '../../public/assets/audio/new/9.MP3';
+import ratusSound from '../../public/assets/audio/new/ratus.MP3';
+import ribuSound from '../../public/assets/audio/new/ribu.MP3';
+import sebelasSound from '../../public/assets/audio/new/sebelas.MP3';
+import sepuluhSound from '../../public/assets/audio/new/sepuluh.MP3';
+import seratusSound from '../../public/assets/audio/new/seratus.MP3';
+import silahkanSound from '../../public/assets/audio/new/silahkan_ke_perawat.MP3';
+import silahkanKasirSound from '../../public/assets/audio/new/silahkan_ke_kasir.mp3';
+import belasSound from '../../public/assets/audio/new/belas.MP3';
+import puluhSound from '../../public/assets/audio/new/puluh.MP3';
+import bellFirstSound from '../../public/assets/audio/new/Airport_Bell_First.mp3';
+import bellSecondSound from '../../public/assets/audio/new/Airport_Bell_Second.mp3';
+import nomorUrutSound from '../../public/assets/audio/new/nomor-urut.MP3';
 
 const socket = io.connect("http://localhost:3001/", {
     query: {
@@ -968,8 +969,7 @@ function Antrian() {
     function play(num, fromWhat) {
         console.log(isPlaying)
         if(isPlaying.current == 0){
-            console.log('masuk ya mas')
-            clearInterval(interval);
+            console.log('masuk ya mas');
             // setIsPlaying(true);
             isPlaying.current = 1;
             var lenSound = document.getElementsByClassName('buttonhidden').length;
@@ -984,10 +984,9 @@ function Antrian() {
         }
     }
          
-    var interval;
 
     useEffect(() => {
-        interval = setInterval(() => {
+        const interval = setInterval(() => {
             console.log("play", isPlaying)
                 
             console.log(IdChecker, IdAntrian.current)
@@ -1040,7 +1039,7 @@ function Antrian() {
                     
             //     }
                 
-            // return () => clearInterval(interval);
+            return () => clearInterval(interval);
             // }
     }, []);
 
@@ -1343,29 +1342,29 @@ function Antrian() {
             }  
 		
                 <div className="audio">
-                    <audio id="in" src="<?= base_url(); ?>/assets/audio/new/in.wav"></audio>
-                    <audio id="out" src="<?= base_url(); ?>/assets/audio/new/out.wav"></audio>
-                    <audio id="suarabel" src="<?= base_url(); ?>/assets/audio/new/Airport_Bell.MP3"></audio>
-                    <audio id="suarabelnomorurut" src="<?= base_url(); ?>/assets/audio/new/nomor-urut.MP3"></audio>
-                    <audio id="suarabelsuarabelloket" src="<?= base_url(); ?>/assets/audio/new/konter.MP3"></audio>
-                    <audio id="belas" src="<?= base_url(); ?>/assets/audio/new/belas.MP3"></audio>
-                    <audio id="sebelas" src="<?= base_url(); ?>/assets/audio/new/sebelas.MP3"></audio>
-                    <audio id="puluh" src="<?= base_url(); ?>/assets/audio/new/puluh.MP3"></audio>
-                    <audio id="10" src="<?= base_url(); ?>/assets/audio/new/sepuluh.MP3"></audio>
-                    <audio id="ratus" src="<?= base_url(); ?>/assets/audio/new/ratus.MP3"></audio>
-                    <audio id="seratus" src="<?= base_url(); ?>/assets/audio/new/seratus.MP3"></audio>
-                    <audio id="suarabelloket1" src="<?= base_url(); ?>/assets/audio/new/1.MP3"></audio>
-                    <audio id="suarabelloket2" src="<?= base_url(); ?>/assets/audio/new/2.MP3"></audio>
-                    <audio id="suarabelloket3" src="<?= base_url(); ?>/assets/audio/new/3.MP3"></audio>
-                    <audio id="suarabelloket4" src="<?= base_url(); ?>/assets/audio/new/4.MP3"></audio>
-                    <audio id="suarabelloket5" src="<?= base_url(); ?>/assets/audio/new/5.MP3"></audio>
-                    <audio id="suarabelloket6" src="<?= base_url(); ?>/assets/audio/new/6.MP3"></audio>
-                    <audio id="suarabelloket7" src="<?= base_url(); ?>/assets/audio/new/7.MP3"></audio>
-                    <audio id="suarabelloket8" src="<?= base_url(); ?>/assets/audio/new/8.MP3"></audio>
-                    <audio id="suarabelloket9" src="<?= base_url(); ?>/assets/audio/new/9.MP3"></audio>
-                    <audio id="suarabelloket10" src="<?= base_url(); ?>/assets/audio/new/sepuluh.MP3"></audio>
-                    {/* <audio id="loket" src="<?= base_url(); ?>/assets/audio/new/loket.MP3"></audio> --> */}
-                    {/* <audio id="perawat" onClick={playPerawat} onCanPlay={ () => { document.getElementById('perawat').play(); } } src="../assets/audio/new/perawat.MP3"></audio> */}
+                    <audio id="in" src="<?= base_url(); ?>../../public/assets/audio/new/in.wav"></audio>
+                    <audio id="out" src="<?= base_url(); ?>../../public/assets/audio/new/out.wav"></audio>
+                    <audio id="suarabel" src="<?= base_url(); ?>../../public/assets/audio/new/Airport_Bell.MP3"></audio>
+                    <audio id="suarabelnomorurut" src="<?= base_url(); ?>../../public/assets/audio/new/nomor-urut.MP3"></audio>
+                    <audio id="suarabelsuarabelloket" src="<?= base_url(); ?>../../public/assets/audio/new/konter.MP3"></audio>
+                    <audio id="belas" src="<?= base_url(); ?>../../public/assets/audio/new/belas.MP3"></audio>
+                    <audio id="sebelas" src="<?= base_url(); ?>../../public/assets/audio/new/sebelas.MP3"></audio>
+                    <audio id="puluh" src="<?= base_url(); ?>../../public/assets/audio/new/puluh.MP3"></audio>
+                    <audio id="10" src="<?= base_url(); ?>../../public/assets/audio/new/sepuluh.MP3"></audio>
+                    <audio id="ratus" src="<?= base_url(); ?>../../public/assets/audio/new/ratus.MP3"></audio>
+                    <audio id="seratus" src="<?= base_url(); ?>../../public/assets/audio/new/seratus.MP3"></audio>
+                    <audio id="suarabelloket1" src="<?= base_url(); ?>../../public/assets/audio/new/1.MP3"></audio>
+                    <audio id="suarabelloket2" src="<?= base_url(); ?>../../public/assets/audio/new/2.MP3"></audio>
+                    <audio id="suarabelloket3" src="<?= base_url(); ?>../../public/assets/audio/new/3.MP3"></audio>
+                    <audio id="suarabelloket4" src="<?= base_url(); ?>../../public/assets/audio/new/4.MP3"></audio>
+                    <audio id="suarabelloket5" src="<?= base_url(); ?>../../public/assets/audio/new/5.MP3"></audio>
+                    <audio id="suarabelloket6" src="<?= base_url(); ?>../../public/assets/audio/new/6.MP3"></audio>
+                    <audio id="suarabelloket7" src="<?= base_url(); ?>../../public/assets/audio/new/7.MP3"></audio>
+                    <audio id="suarabelloket8" src="<?= base_url(); ?>../../public/assets/audio/new/8.MP3"></audio>
+                    <audio id="suarabelloket9" src="<?= base_url(); ?>../../public/assets/audio/new/9.MP3"></audio>
+                    <audio id="suarabelloket10" src="<?= base_url(); ?>../../public/assets/audio/new/sepuluh.MP3"></audio>
+                    {/* <audio id="loket" src="<?= base_url(); ?>../../public/assets/audio/new/loket.MP3"></audio> --> */}
+                    {/* <audio id="perawat" onClick={playPerawat} onCanPlay={ () => { document.getElementById('perawat').play(); } } src="../../public/assets/audio/new/perawat.MP3"></audio> */}
                 </div>
             <div className="footer">
                 <marquee behaviour="alternate"><p>RS Awal Bros Pekanbaru - Semoga Lekas Sembuh</p></marquee>

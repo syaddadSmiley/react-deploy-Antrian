@@ -23,9 +23,9 @@
     "use-sound": "^4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/howler": "^2.2.7"
+    "@types/howler": "^2.2.7",
+    "react-app-rewired": "^2.2.1"
   }
 }
