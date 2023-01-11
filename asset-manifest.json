@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-deploy-Antrian/static/css/main.56d02106.css",
+    "main.js": "/react-deploy-Antrian/static/js/main.4b952e2f.js",
+    "static/js/845.4fbf7743.chunk.js": "/react-deploy-Antrian/static/js/845.4fbf7743.chunk.js",
+    "static/media/1.jpg": "/react-deploy-Antrian/static/media/1.daf709ea4da025b5b7e1.jpg",
+    "static/media/Airport_Bell_Second.mp3": "/react-deploy-Antrian/static/media/Airport_Bell_Second.68a1f1bcb67c04eb48c5.mp3",
+    "static/media/Airport_Bell_First.mp3": "/react-deploy-Antrian/static/media/Airport_Bell_First.cfde769546df0ba6d7c0.mp3",
+    "static/media/silahkan_ke_kasir.mp3": "/react-deploy-Antrian/static/media/silahkan_ke_kasir.b70b5a68ba2ea2dbace5.mp3",
+    "static/media/logo.jpg": "/react-deploy-Antrian/static/media/logo.92dc6a25917df98f8465.jpg",
+    "static/media/silahkan_ke_perawat.MP3": "/react-deploy-Antrian/static/media/silahkan_ke_perawat.ef97dbc0e29541ab0d36.MP3",
+    "static/media/seratus.MP3": "/react-deploy-Antrian/static/media/seratus.407feb3416bd1d03310d.MP3",
+    "static/media/sebelas.MP3": "/react-deploy-Antrian/static/media/sebelas.b288a062732634dea3f9.MP3",
+    "static/media/9.MP3": "/react-deploy-Antrian/static/media/9.cf66a4dd210406c725c2.MP3",
+    "static/media/nomor-urut.MP3": "/react-deploy-Antrian/static/media/nomor-urut.2b43ec1a0b0c0397f393.MP3",
+    "static/media/ratus.MP3": "/react-deploy-Antrian/static/media/ratus.a19782208a514aa2b4ee.MP3",
+    "static/media/8.MP3": "/react-deploy-Antrian/static/media/8.e09a5f2091e44ad65cfb.MP3",
+    "static/media/sepuluh.MP3": "/react-deploy-Antrian/static/media/sepuluh.f4d2278d8b8c6591fe84.MP3",
+    "static/media/belas.MP3": "/react-deploy-Antrian/static/media/belas.8efe5917195aa1cfebf6.MP3",
+    "static/media/1.MP3": "/react-deploy-Antrian/static/media/1.254a0f9e9684e7caf8e3.MP3",
+    "static/media/3.MP3": "/react-deploy-Antrian/static/media/3.88c9bf73674856d1c891.MP3",
+    "static/media/7.MP3": "/react-deploy-Antrian/static/media/7.fddbfd116b5aa6abdf82.MP3",
+    "static/media/ribu.MP3": "/react-deploy-Antrian/static/media/ribu.4b125b100976b1ccabef.MP3",
+    "static/media/2.MP3": "/react-deploy-Antrian/static/media/2.c63a238ba1742dc5efe9.MP3",
+    "static/media/5.MP3": "/react-deploy-Antrian/static/media/5.95625a445face755fdad.MP3",
+    "static/media/6.MP3": "/react-deploy-Antrian/static/media/6.a1b5a17dbadfccbebe27.MP3",
+    "static/media/4.MP3": "/react-deploy-Antrian/static/media/4.014bff266c32c32ebd3b.MP3",
+    "static/media/puluh.MP3": "/react-deploy-Antrian/static/media/puluh.7f8805f3cff31bf1cc4b.MP3",
+    "index.html": "/react-deploy-Antrian/index.html",
+    "main.56d02106.css.map": "/react-deploy-Antrian/static/css/main.56d02106.css.map",
+    "main.4b952e2f.js.map": "/react-deploy-Antrian/static/js/main.4b952e2f.js.map",
+    "845.4fbf7743.chunk.js.map": "/react-deploy-Antrian/static/js/845.4fbf7743.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56d02106.css",
+    "static/js/main.4b952e2f.js"
+  ]
+}
