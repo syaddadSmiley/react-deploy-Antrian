@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-deploy-Antrian/static/css/main.56d02106.css",
-    "main.js": "/react-deploy-Antrian/static/js/main.4b952e2f.js",
+    "main.js": "/react-deploy-Antrian/static/js/main.c67e04b5.js",
     "static/js/845.4fbf7743.chunk.js": "/react-deploy-Antrian/static/js/845.4fbf7743.chunk.js",
     "static/media/1.jpg": "/react-deploy-Antrian/static/media/1.daf709ea4da025b5b7e1.jpg",
     "static/media/Airport_Bell_Second.mp3": "/react-deploy-Antrian/static/media/Airport_Bell_Second.68a1f1bcb67c04eb48c5.mp3",
@@ -28,11 +28,11 @@
     "static/media/puluh.MP3": "/react-deploy-Antrian/static/media/puluh.7f8805f3cff31bf1cc4b.MP3",
     "index.html": "/react-deploy-Antrian/index.html",
     "main.56d02106.css.map": "/react-deploy-Antrian/static/css/main.56d02106.css.map",
-    "main.4b952e2f.js.map": "/react-deploy-Antrian/static/js/main.4b952e2f.js.map",
+    "main.c67e04b5.js.map": "/react-deploy-Antrian/static/js/main.c67e04b5.js.map",
     "845.4fbf7743.chunk.js.map": "/react-deploy-Antrian/static/js/845.4fbf7743.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56d02106.css",
-    "static/js/main.4b952e2f.js"
+    "static/js/main.c67e04b5.js"
   ]
 }
